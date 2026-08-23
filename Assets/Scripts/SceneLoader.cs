@@ -3,22 +3,19 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    [Tooltip("Exact name of the scene to load (must match the scene file name).")]
-    [SerializeField] private string sceneToLoad;
-
-    // Call this from the Button's OnClick() event
-    public void LoadScene()
+    // Call this directly from any Button's OnClick(), passing the exact scene name as the string argument
+    public void LoadSceneByName(string sceneName)
     {
-        if (string.IsNullOrEmpty(sceneToLoad))
+        if (string.IsNullOrEmpty(sceneName))
         {
-            Debug.LogError("SceneLoader: No scene name assigned in the Inspector!");
+            Debug.LogError("SceneLoader: No scene name passed from the Button's OnClick()!");
             return;
         }
 
-        SceneManager.LoadScene(sceneToLoad);
+        SceneManager.LoadScene(sceneName);
     }
 
-    // Optional: use this instead if you want to load by Build Index
+    // Optional: load by Build Index instead
     public void LoadSceneByIndex(int buildIndex)
     {
         SceneManager.LoadScene(buildIndex);

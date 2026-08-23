@@ -11,6 +11,20 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: bb005e48db110074bb6839e2e33cdc22
+  - enabled: 1
+    path: Assets/Scenes/Online.unity
+    guid: 1b42314a4eaf6df489f5460da13848b6
+  - enabled: 1
+    path: Assets/Scenes/Story Mode.unity
+    guid: afa794f46769b6b428cf70dec53b9931
+  - enabled: 1
+    path: Assets/Scenes/Loading Screen.unity
+    guid: dd988b2f41c4c194c946aa4ba25f8437
+  - enabled: 1
+    path: Assets/Scenes/In-Game.unity
+    guid: 1535502cb3e55b34ea0083f89b55f538
   m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: d3e10ba585b9121459ae004510182df4, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.localization.settings: {fileID: 11400000, guid: e8043186ed815404bbeb082535bc0376, type: 2}
   m_UseUCBPForAssetBundles: 0

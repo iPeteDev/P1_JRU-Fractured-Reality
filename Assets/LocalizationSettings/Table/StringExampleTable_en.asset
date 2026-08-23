@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: StringExampleTable_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: bf443dfbc0710814284a9bf05a57bc7c, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 3334560870400
+    m_Localized: PLAY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16383489404928
+    m_Localized: LOAD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16528440356864
+    m_Localized: SETTINGS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16687278649344
+    m_Localized: HELP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16811090309120
+    m_Localized: QUIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16907802570752
+    m_Localized: STORY MODE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17088317026304
+    m_Localized: ONLINE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17194546163712
+    m_Localized: MASTER VOLUME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17624403603456
+    m_Localized: MUSIC VOLUME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17810542620672
+    m_Localized: QUALITY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17913693138944
+    m_Localized: LOW
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18062532210688
+    m_Localized: MEDIUM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18144442773504
+    m_Localized: HIGH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18252416741376
+    m_Localized: LANGUAGE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18346767609856
+    m_Localized: STORY SELECTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18561717301248
+    m_Localized: NO INTERNET CONNECTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23937007284224
+    m_Localized: YOU DON'T HAVE ANY SAVE PROGRESS YET.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28570798845952
+    m_Localized: START
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155368878567424
+    m_Localized: RESUME
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
